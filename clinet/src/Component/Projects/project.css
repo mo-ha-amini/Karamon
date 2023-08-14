@@ -1,0 +1,75 @@
+.popular-movies {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-row-gap: 1rem;
+  grid-column-gap: 1rem; */
+  /* overflow: scroll; */
+}
+.imgPic {
+  width: 99%;
+  height: 28vh;
+  object-fit: cover;
+  /* border-radius: 1rem; */
+  /* margin-bottom: 2rem; */
+  -webkit-filter: grayscale(95%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(95%);
+}
+
+.imgPic:hover{
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  border-radius: 1rem;
+  filter: grayscale(0%);
+}
+.h2font {
+  font-size: 0.8rem;
+}
+.filter-container {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+.filter-container button {
+  margin-right: 1rem;
+  min-width: 5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 1rem;
+  border: 2px solid rgb(165, 165, 165);
+}
+button.active {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+/* tw-bg-black tw-z-10 tw-absolute tw-top-0 tw-left-0 tw-w-[100%] tw-h-[100%] tw-opacity-25 */
+.project_deatil_container{
+  z-index: 10;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 25%;
+}
+
+/* tw-bg-slate-50 tw-z-10 tw-absolute tw-w-[70%] tw-h-[70%] tw-right-0 tw-left-0 tw-ml-auto tw-mr-auto tw-bottom-0 tw-top-0 tw-mb-auto tw-mt-auto tw-rounded-xl */
+.project_card{
+  background-color: slategrey;
+  position: absolute;
+  z-index: 11;
+  width: 70%;
+  height: 70%;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
+  top: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  
+}
