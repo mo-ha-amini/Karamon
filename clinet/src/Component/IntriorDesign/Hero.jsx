@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="mask">
         <div className="d-flex justify-content-center align-items-center tw-h-[100vh]">
           <div className="text-white">
-            <h1 className="mb-3 tw-text-black tw-font-serif lg:tw-text-8xl sm:tw-text-2xl">HandiCraft</h1>
+            <h1 className="mb-3 tw-text-black tw-font-serif lg:tw-text-8xl sm:tw-text-lg">Interior Design</h1>
             {/* <h4 className="mb-3">Subheading</h4>
             <a className="btn btn-outline-light btn-lg" href="#!">
               Call to action
