@@ -7,7 +7,7 @@ import { picturesPro } from "../Data/Data";
 import { staggerContainer } from "../../utils/motion";
 import { AiFillCloseCircle } from "react-icons/ai";
 
-function Projects() {
+function Projects({picData}) {
   const [popular, setPopular] = useState([]);
   const [filtered, setFiltered] = useState([]);
   const [activeGenre, setActiveGenre] = useState(25);
@@ -15,7 +15,7 @@ function Projects() {
   const [selectedMovie, setSelectedMovie] = useState(null);
 
   const setPic = () => {
-    setPopular(picturesPro);
+    setPopular(picData);
   };
 
   const selectMovie = (id) => {
