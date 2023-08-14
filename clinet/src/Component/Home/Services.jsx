@@ -32,7 +32,7 @@ const Services = () => {
 
         <div className="tw-p-3 tw-shadow-xl tw-rounded-md">
           <div>
-            <h5 className="tw-text-center tw-font-bold ">Architecture</h5>
+            <h5 className="tw-text-center tw-font-bold ">HandiCraft</h5>
             <div className="tw-flex tw-justify-center">
               <img src={img1} alt="" className="tw-w-[350px]" />
             </div>
@@ -46,17 +46,17 @@ const Services = () => {
           </div>
           <div className="tw-flex tw-justify-center ">
             <Link
-              to={"/projects"}
+              to={"/handicraft"}
               className=" tw-bg-orange-400 tw-border-orange-600 tw-border-[2px] tw-rounded-3xl tw-p-3 tw-text-neutral-800"
             >
-              Architecture Project
+              HandiCraft Project
             </Link>
           </div>
         </div>
 
         <div className="tw-p-3 tw-shadow-xl tw-rounded-md">
           <div>
-            <h5 className="tw-text-center tw-font-bold ">Architecture</h5>
+            <h5 className="tw-text-center tw-font-bold ">Interior Design</h5>
             <div className="tw-flex tw-justify-center">
               <img src={img1} alt="" className="tw-w-[350px]" />
             </div>
@@ -70,10 +70,10 @@ const Services = () => {
           </div>
           <div className="tw-flex tw-justify-center ">
             <Link
-              to={"/projects"}
+              to={"/interiordesign"}
               className=" tw-bg-orange-400 tw-border-orange-600 tw-border-[2px] tw-rounded-3xl tw-p-3 tw-text-neutral-800"
             >
-              Architecture Project
+              InteriorDesign Project
             </Link>
           </div>
         </div>  
